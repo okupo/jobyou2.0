@@ -1,0 +1,423 @@
+/*
+* Project Name: jobyou!
+* Project URI: www.jobyou.com.br
+* Author: OKUPO SOLUÇÕES EMPRESARIAIS
+* Author URI: www.okupo.com.br
+* Description: The largest Brazilian professional community.
+* Version: 2.0
+*/
+/* =========================== MAIN =========================== */
+*{ margin:0; padding: 0; }
+
+html, body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	height: 100%;
+	font-size: 0.9em;
+	color: #777777;
+	background-color: #F4F3F2;
+}
+
+.Left{float: left;}
+
+.Right{float: right;}
+
+.Padding{padding: 0.5em;}
+/* ======= ALL ======= */
+#wrapper{
+	margin: 0 auto;
+	width:1024px;
+}
+
+.btn{
+	border:1px solid;
+	border-color: #999 #000 #000 #999;
+}
+.btn:hover{
+	border:1px solid;
+	border-color: #000 #999 #999 #000;
+}
+
+.txtcenter{ text-align: center;}
+
+#mask{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 99999999999999;
+}
+/* ===== TAGS ===== */
+ul,ol{ list-style: none;}
+
+li a, li a:hover, a, a:hover{border: none; text-decoration: none; color: #FBFBFB;}
+
+h1{	font-size: 1.5em; }
+
+h2{font-size: 1.3em; }
+
+h3{ font-size: 0.9em; }
+
+h4{ font-size: 0.8em}
+
+h1, h2, h3, h4, h5, h6, label { text-rendering: optimizeLegibility; }
+
+label{font-weight: 700;}
+
+input[type="text"], input[type="password"], input[type="submit"], input[type="email"]{
+	width: 20em !important;
+	height: 1em;
+	display: inline-block;
+	padding: 0.5em;
+	font-size: 1em;
+	line-height: 1em;
+	color: #808080;
+	border: 0.1em solid #ccc;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	border-radius: 0.3em;
+}
+
+input[type="submit"]{
+	width: 21em !important;
+	height: 2em;
+}
+
+
+/* ===== COLORS ===== */
+.bgGreen{background-color: #00A859;}
+.bgOrange{background-color: #F58634;}
+.bgOrangeRed{background-color: #FF4500;}
+.bgRed{ background-color: #FF0000;}
+.bgWhite{ background-color: #fbfbfb; }
+
+.txtOrange{color: #F58634;}
+.txtGreen{color: #00A859}
+.txtOrangeRed{color: #FF4500;}
+.txtWhite{color: #FBFBFB;}
+.txtGray{color: #F4F3F2;}
+
+/* ===== SIDEBAR ===== */
+#sidebar{
+	width: 22.8em;
+	min-height: 30em;
+	margin: 0.7em 0;
+	float: left;
+}
+/* ===== SIDEBAR ===== */
+/* =========================== MAIN =========================== */
+
+/* =========================== HEADER =========================== */
+#header{
+	background: #fff;
+	height: 5em;
+	border-top: 0.3em solid #FF4500;
+	box-shadow: 0 3px 3px #ccc;
+	-moz-box-shadow: 0 3px 3px #ccc;
+	-webkir-box-shadow: 0 3px 3px #ccc;
+}
+
+#gridLogo{
+	float: left;
+	padding: 0.5em;
+	height: 4em;
+	margin: 0 0.8em;
+}
+
+.logo{
+	width: 16em;
+	position: relative;
+	top: -1em;
+}
+
+#slogan{
+	position: relative;
+	top: 0.75em;
+	padding: 0.3em 0.2em;
+	height: 1.3em;
+	width: 25em;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.4em;
+	line-height: 1.25em;
+	float: right;
+}
+/* =========================== HEADER =========================== */
+
+/* =========================== CONTENT VIEWS =========================== */
+/* ================= USUARIOSCONTROLLER ================= */
+div.submit, div.input{
+	padding: 0.5em;
+}
+/* ================= USUARIOSCONTROLLER ================= */
+/* =========================== CONTENT VIEWS =========================== */
+
+/* =========================== FOOTER =========================== */
+#footer{
+	width: 100%;
+	height: 2.6em;
+	position: fixed;
+	bottom: 0px;
+	border-top: 3px solid #FF4500;
+	box-shadow: 0 -3px 3px #888;
+	-webkit-box-shadow: 0 -3px 3px #888;
+	-moz-box-shadow: 0 -3px 3px #888;
+	z-index: 9999999999;
+}
+
+#copyright, .info{
+	height: 2.6em;
+	float: left;
+	line-height: 3.1em;
+	font-size: 0.9em;
+	margin: 0 1em;
+	color: #FFFFFF;
+}
+
+.info{margin: 0 0.2em;}
+
+.iconJob{
+	height: 2.2em;
+	width: 3em;
+	float: left;
+	margin: 0.2em;
+}
+
+#centerFooter{
+	position: relative;
+	left: 14%;
+}
+/* =========================== FOOTER =========================== */
+
+/**======================= O-QUE-É ======================**/
+.who{
+	float: left;
+	position: relative;
+	width: 709px;
+	padding: 0 14px;
+	border-left: 1px solid #F58634;
+}
+
+.whoMenu{
+	width: 215px;
+	padding: 0.5em;
+	float: left;
+}
+
+.text-info{
+	text-align: center;
+	font-size: 1.8em;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+.containerWho{
+	float: left;
+	position: relative;
+	width: 709px;
+	margin-bottom: 10px;
+	top: 10px;
+}
+/**======================= O-QUE-É ======================**/
+
+/**======================= SOBRE ======================**/
+.about{
+	float: left;
+	margin: 0.2em 0;
+	width: 56em;
+	padding: 0.5em;
+	border-left: 1px solid #F58634;
+}
+
+.aboutMenu{
+	width: 215px;
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+.about-menu{
+	text-align: center;
+	font-size: 1.3em;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.containerAbout{
+	float: left;
+	position: relative;
+	width: 709px;
+	margin-bottom: 10px;
+	top: 10px;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 6px;
+}
+
+.box-mascot{
+	padding: 0.5em;
+	height: 15em;
+	width: 15em;
+	position: relative;
+	top: 20em;
+	left: 1.3em;
+}
+/**======================= SOBRE ======================**/
+
+/**======================= TERMOS ======================**/
+.boxText{
+	width: 76em;
+	color: #000;
+	padding: 0.5em;
+	border: 1px solid #F58634;
+	background-color: #fbfbfb;
+	float: left;
+	text-align: justify;
+	margin: 0.4em;
+}
+
+.terms{
+	float: left;
+	position: relative;
+	width: 709px;
+	padding: 0 15px;
+	border-left: 1px solid #F58634;
+	color: #000;
+}
+
+.termsMenu{
+	width: 215px;
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+.termsMainMenu{
+	text-align: center;
+	font-size: 1.3em;
+	color: #fff;
+	padding: 6px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.terms-menu a{
+	padding: 6px;
+	margin-bottom: 5px;
+	color: #FF4500;
+	font-size: 1.1em;
+	text-align: left;
+	font-weight: 700;
+}
+
+.terms-menu a:hover{
+	background-color: rgba(245, 134, 52, 0.2);
+	color: #00A859;
+}
+
+li.terms-menu{margin: 1em 0;}
+
+.title-terms{
+	text-align: left;
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+.item{
+	font-weight: bold;
+	font-size: 1.8em;
+	margin: 1em 0;
+}
+
+/**======================= Scroll To ======================**/
+#scrollToTop{
+	width: 5em;
+	height: 4.6em;
+	padding: 0.5em;
+	position: fixed;
+	top: 10em;
+	left: 3em;
+	display: none;
+	opacity: 0.7;
+}
+
+#scrollToTop:hover{
+	text-decoration:none;
+	opacity: 1;
+}
+/**======================= TERMOS ======================**/
+
+/* =========================== ATIVIDADES =========================== */
+.imgAtividade{
+	width: 4em;
+	height: 4em;	
+	margin-top: 1em;
+}
+.tituloAtividade{
+	width: 100%;
+	background-color: red;
+	/*position: relative;
+	top: -4.2em;
+	left: 4.5em;*/
+}
+.txtPost{
+	width: 99.66%;
+	height: 10em;
+	overflow: auto;
+	margin-bottom: 1.2em;
+}
+.post .submit input{
+	width: 100%;
+	height: 2.5em;
+	cursor: pointer;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	/*position: relative;
+	top: -4.2em;
+	left: 4.5em;*/
+}
+.media{
+	width: 100%;
+	height: 3.5em;
+	margin-top: 1.2em;
+
+}
+.media button{
+	/*margin-right: 2em;*/
+	height: 100%;
+	width: 33.3%;
+	/*height: 2em;*/
+}
+.post{
+	background-color: #DDDDDD;
+	width: 53.5em;
+}
+.atividades{
+	width: 53.5em;
+}
+/* =========================== ATIVIDADES =========================== */
+
+/* =========================== EXIBIR AVISOS =========================== */
+.success,
+.message,
+.cake-error,
+p.error,
+.error-message {
+	clear: both;
+	color: #fff;
+	background: #c43c35;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+/* =========================== EXIBIR AVISOS =========================== */
